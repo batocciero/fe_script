@@ -137,7 +137,6 @@ general_installer_nvim-appimage() {
     echo "# " | sudo tee -a /root/.zshrc
     echo "# Line by $0" | sudo tee -a /root/.zshrc
     echo "alias vim='nvim.appimage'" | sudo tee -a /root/.zshrc
-
     ;;
 
   0)
@@ -158,7 +157,6 @@ general_installer_nvim-appimage() {
     echo "# " | sudo tee -a /root/.bashrc
     echo "# Line by $0" | sudo tee -a /root/.bashrc
     echo "alias vim='nvim.appimage'" | sudo tee -a /root/.bashrc
-
     ;;
 
   0)
