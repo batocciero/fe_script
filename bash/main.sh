@@ -8,7 +8,6 @@
 #
 # It is in under construction.
 
-source felib.sh
 source menu.sh
 
 source general_installer.sh
@@ -41,37 +40,6 @@ while [[ "$1" ]]; do
   -git | -install-git)
     # Ubuntu_apt_install
     Ubuntu_apt_install_git
-    exit 0
-    ;;
-
-  -nvim-flatpak)
-    # general_installer
-    general_installer_nvim-flatpak
-    exit 0
-    ;;
-
-  -go)
-    shift
-    # general_installer
-    general_installer_go "${1}"
-    exit 0
-    ;;
-
-  -nvim-appimg)
-    # general_installer
-    general_installer_nvim-appimage
-    exit 0
-    ;;
-
-  -chrome)
-    # Ubuntu_apt_install
-    Ubuntu_apt_install_chrome
-    exit 0
-    ;;
-
-  -flatpak)
-    # Ubuntu_apt_install
-    Ubuntu_apt_install_flatpak
     exit 0
     ;;
 

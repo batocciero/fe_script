@@ -1,4 +1,5 @@
 #!/bin/bash
+# CREATED IN
 # March 7 2021
 
 # folder_name; compiled_file; startline;
@@ -11,16 +12,16 @@ BUILD_FOLDER="compiled"
 BUILD_FILE="auto"
 ALL=(
   "bash/menu.sh"
-  "bash/felib.sh"
   "bash/general_installer.sh"
   "bash/general_cmd.sh"
   "bash/Ubuntu/cmd.sh"
   "bash/Ubuntu/apt_install.sh"
   "bash/main.sh"
 )
+
+# this is where the builder should start for each file to compile.
 START_LINES=(
   0
-  9
   2
   2
   2

@@ -20,12 +20,6 @@ _menu() {
   echo -e '-github-nopass or -github\t| Github push without password on project.'
   echo -e '-node-install or node\t\t| Install node.tar.xz from the official website.'
   echo -e '-install-git or -git\t\t| Install the git the last version.'
-  echo -e '-nvim-flatpak\t\t\t| Install nvim and configuration.'
-  echo -e '-go\t\t\t\t| Install go.'
-  echo -e '-nvim-appimg\t\t\t| Install nvim and configuration.'
-  echo -e '-chrome\t\t\t\t| Install google chrome.'
-  echo -e '-flatpak\t\t\t| Install flatpak.'
   echo -e '-up\t\t\t\t| Ubuntu/Debian Update.'
-
   echo -e "${RESET}"
 }
